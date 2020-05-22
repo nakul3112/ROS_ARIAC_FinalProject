@@ -154,6 +154,15 @@ In terminal 4:
 <em>In Process Order Update</em>
 </p>
 
+## **Our Final Output**
+
+<p align="center">
+<img src="gifs//kit_building.gif" alt="kit Building Output">
+</p>
+<p align="center">
+<em>Kit Building Output</em>
+</p>
 
 Access the below link to see multiple vidos of how our pipeline is working!
+
 https://drive.google.com/drive/folders/1DF2pgMkngMvCEMyj_yyr3MpZdI1tnsCo
