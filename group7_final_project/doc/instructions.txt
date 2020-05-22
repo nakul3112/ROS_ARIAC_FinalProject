@@ -1,0 +1,16 @@
+#Start Gazebo
+source /opt/ros/melodic/setup.bash
+source ~/catkin_ws/devel/setup.bash
+roslaunch ariac_manager ariac_manager.launch
+
+
+#Start moveit for arm1 (https://bitbucket.org/osrf/ariac/wiki/2019/tutorials/moveit_interface)
+source ~/catkin_ws/install/setup.bash
+roslaunch ur10_moveit_config move_group.launch arm_namespace:=/ariac/arm1
+
+#Start moveit for arm2 (https://bitbucket.org/osrf/ariac/wiki/2019/tutorials/moveit_interface)
+source ~/catkin_ws/install/setup.bash
+roslaunch ur10_moveit_config move_group.launch arm_namespace:=/ariac/arm2
+
+#Start node
+rosrun ariac_manager main_node
